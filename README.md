@@ -1,7 +1,7 @@
 # Simple MVC with AltoRouter
 AltoRouter Example
 
-## Instal
+## Install
 * Edit ```C:\Windows\System32\drivers\etc\hosts``` file.
 * Example ```127.0.0.1 AltoRouter```
 
