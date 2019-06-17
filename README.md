@@ -10,7 +10,7 @@ AltoRouter Example
 Example
 ```ini
 <VirtualHost *:80>
-    ServerName l2log
+    ServerName AltoRouter
     DocumentRoot "C:/xampp/htdocs/AltoRouter/public"
 </VirtualHost>
 ```
