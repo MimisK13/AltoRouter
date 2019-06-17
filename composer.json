@@ -1,6 +1,6 @@
 {
-	"name":"Sample Project",
-	"description":"AltoRouter Example",
+	"name": "simple_mvc/simple_mvc",
+	"description": "AltoRouter Example",
 	"authors": [{
 		"name": "MimisK",
 		"email": "mimisk88@gmail.com"
@@ -14,7 +14,7 @@
 	},
 	"autoload": {
 		"psr-4":{
-			"App\\":"app"
+			"App\\":"app/"
 		}
 	},
 	"config":{
