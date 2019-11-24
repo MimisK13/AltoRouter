@@ -1,3 +1,7 @@
+# PHP Storm			 #
+######################
+.idea
+
 # OS generated files #
 ######################
 .DS_Store
@@ -11,3 +15,7 @@ Thumbs.db
 # Composer Vendor    #
 ######################
 vendor
+
+# Cache 			 #
+######################
+bootstrap/cache/*.php
