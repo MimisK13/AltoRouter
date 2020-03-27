@@ -1,22 +1,24 @@
 <?php
 
 /**
- * Start Session
+ * Start Session.
  */
-if(!isset($_SESSION)) session_start();
+if (!isset($_SESSION)) {
+    session_start();
+}
 
 /**
- * Load Environment Variables
+ * Load Environment Variables.
  */
-require_once __DIR__ . '/../app/Config/env.php';
+require_once __DIR__.'/../app/Config/env.php';
 
 /**
- * Load Routes
+ * Load Routes.
  */
-require_once __DIR__ . '/../app/Routing/routes.php';
-require_once __DIR__ . '/../app/Routing/auth.php';
+require_once __DIR__.'/../app/Routing/routes.php';
+require_once __DIR__.'/../app/Routing/auth.php';
 
 /**
- * Init Route Dispatcher
+ * Init Route Dispatcher.
  */
 new \App\Routing\RouteDispatcher($router);

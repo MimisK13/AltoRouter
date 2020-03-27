@@ -32,5 +32,5 @@ class RouteDispatcher
             view('errors/404');
 //            echo "404: Page not found";
         }
-	}
+    }
 }
