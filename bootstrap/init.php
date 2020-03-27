@@ -19,4 +19,4 @@ require_once __DIR__ . '/../app/Routing/auth.php';
 /**
  * Init Route Dispatcher
  */
-new \App\RouteDispatcher($router);
+new \App\Routing\RouteDispatcher($router);
