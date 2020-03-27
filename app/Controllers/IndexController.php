@@ -7,6 +7,6 @@ class IndexController extends BaseController
 
     public function show()
     {
-        echo "Home Page";
+        echo 'Home Page';
     }
 }

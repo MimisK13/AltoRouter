@@ -8,6 +8,6 @@ class ForgotPasswordController extends BaseController
 {
     public function show()
     {
-        echo "Forgot Password Page!";
+        echo 'Forgot Password Page!';
     }
 }

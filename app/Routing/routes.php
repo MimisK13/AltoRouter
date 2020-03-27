@@ -1,11 +1,11 @@
 <?php
 
 /**
- * Init AltoRouter
+ * Init AltoRouter.
  */
 $router = new AltoRouter;
 
 /**
- * Base Routes
+ * Base Routes.
  */
 $router->map('GET', '/', 'App\Controllers\IndexController@show', 'home');

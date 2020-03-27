@@ -1,17 +1,17 @@
 <?php
 
 /**
- * Base Path
+ * Base Path.
  */
-define('BASE_PATH', realpath(__DIR__ . '/../../'));
+define('BASE_PATH', realpath(__DIR__.'/../../'));
 
 /**
- * Load Composer
+ * Load Composer.
  */
-require_once __DIR__ . '/../../vendor/autoload.php';
+require_once __DIR__.'/../../vendor/autoload.php';
 
 /**
- * Init DotEnv
+ * Init DotEnv.
  */
 $dotEnv = new \Dotenv\Dotenv(BASE_PATH);
 $dotEnv->load();

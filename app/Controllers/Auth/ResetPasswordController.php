@@ -9,6 +9,6 @@ class ResetPasswordController extends BaseController
 
     public function show()
     {
-        echo "Reset Password Page.";
+        echo 'Reset Password Page.';
     }
 }

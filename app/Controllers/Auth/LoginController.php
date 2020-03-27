@@ -9,6 +9,6 @@ class LoginController extends BaseController
 
     public function show()
     {
-        echo "Login Page!";
+        echo 'Login Page!';
     }
 }

@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Auth Routes
+ * Auth Routes.
  */
 $router->map('GET', '/login', 'App\Controllers\Auth\LoginController@show', 'login');
 $router->map('GET', '/logout', 'App\Controllers\Auth\LogoutController@show', 'logout');
