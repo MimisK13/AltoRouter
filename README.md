@@ -1,4 +1,5 @@
-# Simple MVC with AltoRouter
+# Simple MVC with AltoRouter [![StyleCI](https://github.styleci.io/repos/145097333/shield?branch=master)](https://github.styleci.io/repos/145097333)
+
 AltoRouter Example
 
 ## Install
