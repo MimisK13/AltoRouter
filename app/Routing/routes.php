@@ -3,7 +3,7 @@
 /**
  * Init AltoRouter.
  */
-$router = new AltoRouter;
+$router = new AltoRouter();
 
 /**
  * Base Routes.
